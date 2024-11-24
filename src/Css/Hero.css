@@ -1,0 +1,51 @@
+.hero {
+    height: 100vh;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+    background: url('bg.png') no-repeat center center/cover; 
+    color: white;
+    position: relative; /* Makes .hero a reference point for absolutely positioned children */
+  }
+  
+  .sphere {
+    position: absolute; /* Allows precise placement relative to .hero */
+    top: 40%; /* Aligns vertically to the middle */
+    right: 8%; /* Adjusts the distance from the right edge */
+    transform: translateY(-50%); /* Centers the sphere vertically */
+    width: 160px; /* Adjusts the size of the sphere */
+    height: 160px; /* Matches the width for a perfect circle */
+    background: url('sphere.png') no-repeat center center/contain; /* Sets the sphere image */
+  }
+  
+  .star1 {
+    position: absolute; /* Allows precise placement relative to .hero */
+    top: 70%; /* Aligns vertically to the middle */
+    right: 12%; /* Adjusts the distance from the right edge */
+    transform: translateY(-40%); /* Centers the sphere vertically */
+    width: 40px; /* Adjusts the size of the sphere */
+    height: 40px; /* Matches the width for a perfect circle */
+    background: url('star1.png') no-repeat center center/contain; /* Sets the sphere image */
+  }
+  
+  .star2{
+    position: absolute; /* Allows precise placement relative to .hero */
+    top:20%; /* Aligns vertically to the middle */
+    right: 12%; /* Adjusts the distance from the right edge */
+    transform: translateY(-40%); /* Centers the sphere vertically */
+    width: 40px; /* Adjusts the size of the sphere */
+    height: 40px; /* Matches the width for a perfect circle */
+    background: url('star2.png') no-repeat center center/contain; /* Sets the sphere image */
+  }
+  .star3{
+    position: absolute; /* Allows precise placement relative to .hero */
+    top:25%; /* Aligns vertically to the middle */
+    right: 82%; /* Adjusts the distance from the right edge */
+    transform: translateY(-40%); /* Centers the sphere vertically */
+    width: 40px; /* Adjusts the size of the sphere */
+    height: 40px; /* Matches the width for a perfect circle */
+    background: url('star3.png') no-repeat center center/contain; /* Sets the sphere image */
+  }
